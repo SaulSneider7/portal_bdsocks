@@ -230,7 +230,7 @@
 <body class="flex flex-col items-center justify-between min-h-screen px-4 py-5 sm:py-8 antialiased selection:bg-neutral-700 selection:text-white">
 
     <!-- Contenedor Principal (Formato Celular / Max Width) -->
-    <div class="w-full max-w-[580px] mx-auto flex flex-col items-center">
+    <div class="w-full max-w-[460px] mx-auto flex flex-col items-center">
 
         <!-- Sección de Perfil / Cabecera -->
         <section class="flex flex-col items-center text-center pt-4 sm:pt-6 mb-7" aria-label="Información de la marca">
@@ -279,11 +279,11 @@
             </nav>
         </section>
 
-        <!-- Botones de Enlace (Estructura Linktree en el orden solicitado) -->
-        <main class="w-full space-y-3.5 sm:space-y-4 mb-10" role="main" aria-label="Enlaces destacados">
+        <!-- Botones de Enlace (Estructura Linktree compacta) -->
+        <main class="w-[84%] max-w-[340px] sm:max-w-[380px] mx-auto space-y-3 mb-9" role="main" aria-label="Enlaces destacados">
 
             <!-- 1. Compra por WhatsApp (Antes de la lencería) -->
-            <a href="https://wa.me/51967395991?text=Hola%20BD%20SOCKS%2C%20deseo%20realizar%20una%20compra..." target="_blank" rel="noopener noreferrer" class="btn-linktree group w-full bg-white hover:bg-neutral-50 text-neutral-900 rounded-full py-4 px-5 sm:px-6 shadow-lg flex items-center justify-between border border-transparent">
+            <a href="https://wa.me/51967395991?text=Hola%20BD%20SOCKS%2C%20deseo%20realizar%20una%20compra..." target="_blank" rel="noopener noreferrer" class="btn-linktree group w-full bg-white hover:bg-neutral-50 text-neutral-900 rounded-full py-3 px-4 sm:px-5 shadow-lg flex items-center justify-between border border-transparent">
                 <!-- Icono izquierdo con toque verde WhatsApp -->
                 <div class="w-8 h-8 rounded-full bg-emerald-50 text-[#25D366] flex items-center justify-center text-xl shrink-0 group-hover:scale-110 transition-transform">
                     <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
@@ -301,7 +301,7 @@
             </a>
 
             <!-- 2. Catálogo Calcetines -->
-            <a href="pdf/catalogo.pdf" target="_blank" rel="noopener noreferrer" class="btn-linktree group w-full bg-white hover:bg-neutral-50 text-neutral-900 rounded-full py-4 px-5 sm:px-6 shadow-lg flex items-center justify-between border border-transparent">
+            <a href="pdf/catalogo.pdf" target="_blank" rel="noopener noreferrer" class="btn-linktree group w-full bg-white hover:bg-neutral-50 text-neutral-900 rounded-full py-3 px-4 sm:px-5 shadow-lg flex items-center justify-between border border-transparent">
                 <!-- Icono izquierdo -->
                 <div class="w-8 h-8 rounded-full bg-neutral-100 text-neutral-800 flex items-center justify-center text-lg shrink-0 group-hover:scale-110 transition-transform">
                     <i class="fa-solid fa-book-open" aria-hidden="true"></i>
@@ -319,7 +319,7 @@
             </a>
 
             <!-- 3. Catálogo de Lencería -->
-            <a href="pdf/catalogo_lenceria.pdf" target="_blank" rel="noopener noreferrer" class="btn-linktree group w-full bg-white hover:bg-neutral-50 text-neutral-900 rounded-full py-4 px-5 sm:px-6 shadow-lg flex items-center justify-between border border-transparent">
+            <a href="pdf/catalogo_lenceria.pdf" target="_blank" rel="noopener noreferrer" class="btn-linktree group w-full bg-white hover:bg-neutral-50 text-neutral-900 rounded-full py-3 px-4 sm:px-5 shadow-lg flex items-center justify-between border border-transparent">
                 <!-- Icono izquierdo -->
                 <div class="w-8 h-8 rounded-full bg-pink-50 text-pink-600 flex items-center justify-center text-lg shrink-0 group-hover:scale-110 transition-transform">
                     <i class="fa-solid fa-gem" aria-hidden="true"></i>
@@ -337,7 +337,7 @@
             </a>
 
             <!-- 4. Página Web -->
-            <a href="https://bdecostore.com/" target="_blank" rel="noopener noreferrer" class="btn-linktree group w-full bg-white hover:bg-neutral-50 text-neutral-900 rounded-full py-4 px-5 sm:px-6 shadow-lg flex items-center justify-between border border-transparent">
+            <a href="https://bdecostore.com/" target="_blank" rel="noopener noreferrer" class="btn-linktree group w-full bg-white hover:bg-neutral-50 text-neutral-900 rounded-full py-3 px-4 sm:px-5 shadow-lg flex items-center justify-between border border-transparent">
                 <!-- Icono izquierdo -->
                 <div class="w-8 h-8 rounded-full bg-amber-50 text-[#C5A059] flex items-center justify-center text-lg shrink-0 group-hover:scale-110 transition-transform">
                     <i class="fa-solid fa-globe" aria-hidden="true"></i>
@@ -355,17 +355,16 @@
             </a>
 
             <!-- 5. Encuéntranos (Puntos de Venta) -->
-            <button id="btnOpenLocations" type="button" aria-haspopup="dialog" aria-controls="locationsModal" class="btn-linktree group w-full bg-white hover:bg-neutral-50 text-neutral-900 rounded-full py-4 px-5 sm:px-6 shadow-lg flex items-center justify-between border border-transparent text-left cursor-pointer">
+            <button id="btnOpenLocations" type="button" aria-haspopup="dialog" aria-controls="locationsModal" class="btn-linktree group w-full bg-white hover:bg-neutral-50 text-neutral-900 rounded-full py-3 px-4 sm:px-5 shadow-lg flex items-center justify-between border border-transparent text-left cursor-pointer">
                 <!-- Icono izquierdo -->
                 <div class="w-8 h-8 rounded-full bg-rose-50 text-rose-600 flex items-center justify-center text-lg shrink-0 group-hover:scale-110 transition-transform">
                     <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
                 </div>
 
-                <!-- Título centrado con badge discreto -->
-                <div class="flex-1 text-center font-bold text-sm sm:text-base tracking-tight text-neutral-900 flex items-center justify-center gap-2">
-                    <span>Encuéntranos</span>
-                    <span class="text-[11px] font-semibold tracking-wider uppercase px-2 py-0.5 rounded-full bg-neutral-100 text-neutral-600 border border-neutral-200">Locales</span>
-                </div>
+                <!-- Título centrado -->
+                <span class="flex-1 text-center font-bold text-sm sm:text-base tracking-tight text-neutral-900">
+                    Encuéntranos
+                </span>
 
                 <!-- Flecha derecha -->
                 <div class="w-8 flex justify-end text-neutral-400 group-hover:text-neutral-700 transition-colors">
